@@ -1,64 +1,3 @@
-// let form = document.querySelector('#task-form')
-// let taskList = document.querySelector('.collection')
-// let TaskInput = document.querySelector('#TaskInput')
-
-// //Load All Events
-// loadEventListeners()
-
-// function loadEventListeners() {
-//     form.addEventListener('submit', addTask)
-// }
-
-// //Add Task
-// function addTask(e) {
-//     if (TaskInput.value === '') {
-//         alert('Please Add a Task')
-//     }
-//     let li = document.createElement('li')
-//     li.classList.add('list-group-item')
-//     li.appendChild(document.createTextNode(TaskInput.value))
-
-//     let link = document.createElement('a')
-//     link.className = 'close'
-//     link.innerHTML = '<i class="fas fa-minus"></i>'
-//     li.appendChild(link)
-
-//     taskList.appendChild(li)
-//     TaskInput.value = ''
-//     e.preventDefault()
-// }
-
-// //Define UI
-// let taskForm = document.querySelector('#task-form')
-// let TaskInput = document.querySelector('#TaskInput')
-// let taskCollection = document.querySelector('.collection')
-
-// //Load all Events
-// loadEventListeners()
-
-// function loadEventListeners() {
-//     taskForm.addEventListener('submit', addTask)
-// }
-// //Add Task
-// function addTask(e) {
-//     if (TaskInput.value === '') {
-//         alert('Add A Task')
-//     }
-//     let li = document.createElement('li')
-//     li.className = 'list-group-item'
-//     li.appendChild(document.createTextNode(TaskInput.value))
-
-//     let link = document.createElement('a')
-//     link.className = 'close'
-//     link.innerHTML = '<i class="fas fa-minus"></i>'
-//     li.appendChild(link)
-
-//     taskCollection.appendChild(li)
-//     TaskInput.value = ''
-//     e.preventDefault()
-// }
-
-
 //Defne UI
 let taskForm = document.querySelector('#task-form')
 let TaskInput = document.querySelector('#TaskInput')
@@ -68,7 +7,6 @@ let filter = document.querySelector('#filter')
 
 //Load All Events
 loadEventListeners()
-
 
 //add Task
 function loadEventListeners() {
