@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DOM</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawesome.min.css -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .list-group-item a {
+            display: none;
+            transition: .3s ease-in-out;
+        }
+        
+        .list-group-item:hover a {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="form-content">
+                    <form id="task-form">
+                        <div class="form-group my-3">
+                            <h3>Task List</h3>
+                            <input type="text" name="task" class="form-control" id="TaskInput" placeholder="Enter Your Task Name">
+                        </div>
+
+                        <input type="submit" class="btn btn-info " value="Add Task">
+                    </form>
+                </div>
+
+                <div class="list-collection my-3">
+                    <h3>Task</h3>
+                    <div class="filter-task my-3">
+                        <input type="text" name="filter" class="form-control" id="filter" placeholder="Enter Your Task Name">
+                    </div>
+
+                    <ul class="list-group my-3 collection">
+
+                    </ul>
+
+                    <a href="" class="clears btn btn-info" id="">Clear Task</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--All JavaScript Plugin-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome-all.js"></script>
+    <!-- main.js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
